@@ -1,12 +1,45 @@
-*.class
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package paketmurah;
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+import java.util.Scanner;
 
-# Package Files #
-*.jar
-*.war
-*.ear
+/**
+ *
+ * @author USER
+ */
+public class NewMainPita;
+        
+        {
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        String nama, npm, kelas, email;
+        
+        System.out.print("masukkan nama anda :");
+        nama = input.nextLine();
+        
+        System.out.print("masukkan npm anda :");
+        npm = input.nextLine();
+       
+        System.out.print("masukkan kelas anda :");
+        kelas = input.nextLine();
+        
+        System.out.print("masukkan email anda :");
+        email = input.nextLine();
+        
+        System.out.println("nama anda:"+nama);
+        System.out.println("npm anda:"+npm);
+        System.out.println("kelas anda:"+kelas);
+        System.out.println("email anda:"+email);
+        
+   
+    }
+    
+}
